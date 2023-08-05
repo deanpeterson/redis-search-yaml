@@ -15,10 +15,10 @@ spec:
     - name: latest
       annotations:
         openshift.io/generated-by: OpenShiftWebConsole
-        openshift.io/imported-from: redis/redis-stack
+        openshift.io/imported-from: redis/redis-stack:7.0.6-RC9
       from:
         kind: DockerImage
-        name: redis/redis-stack
+        name: redis/redis-stack:7.0.6-RC9
       generation: 2
       importPolicy:
         importMode: Legacy
